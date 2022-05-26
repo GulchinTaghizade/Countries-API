@@ -1,0 +1,39 @@
+#cards{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    justify-content: space-evenly;
+    
+}
+
+h1{
+    text-align: center;
+    text-shadow:  rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;;
+}
+
+.country{
+    margin: 20px 0;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    overflow: hidden;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    height: 400px;
+    width: 250px;
+
+}
+
+.country h4,p:hover{
+    color: rgb(212, 12, 12);
+    cursor: pointer;
+
+}
+img{
+    width: 100%;
+    height: 40%;
+}
+
+img:hover{
+    filter: brightness(70%);
+}
+
